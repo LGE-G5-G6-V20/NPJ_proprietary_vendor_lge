@@ -393,7 +393,16 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_stats_algorithm.so \
     vendor/lge/v20-common/proprietary/vendor/lib64/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_dbg.so \
     vendor/lge/v20-common/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_algo.so \
-    vendor/lge/v20-common/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so
+    vendor/lge/v20-common/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/camera/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/camera/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/camera/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
+    vendor/lge/v20-common/proprietary/vendor/lib64/camera/mmcamera2/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_q3a_core.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/camera/mmcamera/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/camera/mmcamera/libmmcamera_trueportrait_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_trueportrait_lib.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/camera/mmcamera/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/camera/mmcamera/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/omx/libmm-omxcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-omxcore.so 
 
 PRODUCT_PACKAGES += \
     fingerprint.msm8996
