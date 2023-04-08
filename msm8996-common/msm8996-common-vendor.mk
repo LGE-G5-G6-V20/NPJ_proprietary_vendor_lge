@@ -70,8 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/system/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/telephonyservice.xml \
     vendor/lge/msm8996-common/proprietary/system/etc/permissions/vzw_sso_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vzw_sso_permissions.xml \
     vendor/lge/msm8996-common/proprietary/system/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/lge/msm8996-common/proprietary/system/lib/hw/lgkm.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/lgkm.default.so \
-    vendor/lge/msm8996-common/proprietary/system/lib/hw/lgkm.msm8996.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/lgkm.msm8996.so \
     vendor/lge/msm8996-common/proprietary/system/lib/lib-imscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imscamera.so \
     vendor/lge/msm8996-common/proprietary/system/lib/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvideocodec.so \
     vendor/lge/msm8996-common/proprietary/system/lib/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvtextutils.so \
@@ -79,7 +77,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/system/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
     vendor/lge/msm8996-common/proprietary/system/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
     vendor/lge/msm8996-common/proprietary/system/lib/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdiag_system.so \
-    vendor/lge/msm8996-common/proprietary/system/lib/liblgkm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liblgkm.so \
     vendor/lge/msm8996-common/proprietary/system/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
     vendor/lge/msm8996-common/proprietary/system/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmparser_lite.so \
     vendor/lge/msm8996-common/proprietary/system/lib/librcc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/librcc.so \
@@ -87,8 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/system/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so:$(TARGET_COPY_OUT_SYSTEM)/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so \
     vendor/lge/msm8996-common/proprietary/system/lib/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/lge/msm8996-common/proprietary/system/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/lge/msm8996-common/proprietary/system/lib64/hw/lgkm.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/lgkm.default.so \
-    vendor/lge/msm8996-common/proprietary/system/lib64/hw/lgkm.msm8996.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/lgkm.msm8996.so \
     vendor/lge/msm8996-common/proprietary/system/lib64/lib-imscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imscamera.so \
     vendor/lge/msm8996-common/proprietary/system/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvideocodec.so \
     vendor/lge/msm8996-common/proprietary/system/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvt.so \
@@ -96,7 +91,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/system/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvtutils.so \
     vendor/lge/msm8996-common/proprietary/system/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
     vendor/lge/msm8996-common/proprietary/system/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdiag_system.so \
-    vendor/lge/msm8996-common/proprietary/system/lib64/liblgkm.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblgkm.so \
     vendor/lge/msm8996-common/proprietary/system/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so \
     vendor/lge/msm8996-common/proprietary/system/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmparser_lite.so \
     vendor/lge/msm8996-common/proprietary/system/lib64/librcc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/librcc.so \
