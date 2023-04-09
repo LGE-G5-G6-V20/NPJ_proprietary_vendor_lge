@@ -515,6 +515,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
+    HotwordEnrollmentOKGoogleWCD9335 \
+    HotwordEnrollmentXGoogleWCD9335 \
     libcir_driver \
     gatekeeper.msm8996 \
     keystore.msm8996 \
